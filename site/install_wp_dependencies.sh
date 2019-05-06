@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # Install PHP
-curl -sS http://www.php.net/distributions/php-7.3.5.tar.xz
+curl -sSL http://www.php.net/distributions/php-7.3.5.tar.xz --output php-7.3.5.tar.xz
 tar -zxvf php-7.3.5.tar.xz
-cd php-7.3.5.tar.xz
+cd php-7.3.5
 ./configure --prefix=/usr                \
             --sysconfdir=/etc            \
             --localstatedir=/var         \
