@@ -6,7 +6,7 @@
 Theme development should occur in the `site/wp-content/themes` directory.
 Likewise, any custom plugin development should occur in the `site/wp-content/plugins` directory.
 
-If you want to include additional plugins, without needing to modify the plugin files, please install the plugin from `wpackagist.com` via the `site/composer.json` file in the `require` section. Make sure to update the `.gitignore` file to exclude the plugin from commits. 
+If you want to include additional plugins, without needing to modify the plugin files, simply reference the plugin from `wpackagist.com` via the `site/composer.json` file - it will be installed to WordPress during image built time. 
 
 If you do need to include plugins that require customizations to its files, then you will need to manually include that plugin and its file within the `site/wp-content/plugins` directory. 
 
