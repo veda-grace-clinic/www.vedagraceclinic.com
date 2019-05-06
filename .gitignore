@@ -3,3 +3,6 @@
 *.log
 .idea
 mu.yml
+site/vendor/
+
+site/wp-content

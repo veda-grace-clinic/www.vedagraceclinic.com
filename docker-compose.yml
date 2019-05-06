@@ -17,7 +17,7 @@ services:
     depends_on: 
       - mysql
     volumes:
-      - ./local/wp-content/uploads:/var/www/html/wp-content/uploads
+      - ./site/wp-content:/var/www/html/wp-content
 
   mysql:
     image: mysql:5.6
