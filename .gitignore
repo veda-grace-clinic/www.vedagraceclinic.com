@@ -5,4 +5,8 @@
 mu.yml
 site/vendor/
 
-site/wp-content
+site/wp-content/plugins/amazon-s3-and-cloudfront-assets-pull
+site/wp-content/plugins/amazon-s3-and-cloudfront-pro
+site/wp-content/plugins/wp-migrate-db-pro
+site/wp-content/plugins/wp-migrate-db-pro-media-files
+site/wp-content/plugins/wp-native-php-sessions
