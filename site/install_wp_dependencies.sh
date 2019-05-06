@@ -1,8 +1,44 @@
 #!/bin/sh
 
 # Install PHP
-sudo apt-get update
-sudo apt-get install -y curl php-cli php-mbstring git unzip
+curl -sS http://www.php.net/distributions/php-7.3.5.tar.xz
+tar -zxvf php-7.3.5.tar.xz
+cd php-7.3.5.tar.xz
+./configure --prefix=/usr                \
+            --sysconfdir=/etc            \
+            --localstatedir=/var         \
+            --datadir=/usr/share/php     \
+            --mandir=/usr/share/man      \
+            --without-pear               \
+            --enable-fpm                 \
+            --with-fpm-user=apache       \
+            --with-fpm-group=apache      \
+            --with-config-file-path=/etc \
+            --with-zlib                  \
+            --enable-bcmath              \
+            --with-bz2                   \
+            --enable-calendar            \
+            --enable-dba=shared          \
+            --with-gdbm                  \
+            --with-gmp                   \
+            --enable-ftp                 \
+            --with-gettext               \
+            --enable-mbstring            \
+            --with-readline              &&
+make
+
+make install                                     &&
+install -v -m644 php.ini-production /etc/php.ini &&
+
+install -v -m755 -d /usr/share/doc/php-7.3.5 &&
+install -v -m644    CODING_STANDARDS EXTENSIONS INSTALL NEWS README* UPGRADING* php.gif \
+                    /usr/share/doc/php-7.3.5 &&
+ln -v -sfn          /usr/lib/php/doc/Archive_Tar/docs/Archive_Tar.txt \
+                    /usr/share/doc/php-7.3.5 &&
+ln -v -sfn          /usr/lib/php/doc/Structures_Graph/docs \
+                    /usr/share/doc/php-7.3.5
+
+cd ../
 
 # Install Composer
 EXPECTED_SIGNATURE=$(curl -sS https://composer.github.io/installer.sig)
