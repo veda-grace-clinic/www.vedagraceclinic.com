@@ -10,8 +10,6 @@ phases:
       - IMAGE_TAG=${COMMIT_HASH:=latest}
   build:
     commands:
-      - echo Installing Package Dependencies
-      - chmod +x ./site/install_wp_dependencies.sh && ./site/install_wp_dependencies.sh
       - echo Building Docker image on `date`
       - docker build --build-arg dbu=${DATABASE_USERNAME} --build-arg dbp=${DATABASE_PASSWORD} --build-arg dbh=${DATABASE_HOST} --build-arg dbn=wordpress -t $REPOSITORY_URI:latest .
       - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
