@@ -2,7 +2,4 @@
 *.pem
 *.log
 .idea
-vendor/
-local/mysql/*
-local/wp-content/*
 mu.yml
