@@ -5,17 +5,22 @@ phases:
     commands:
       - echo Logging in to AWS ECR...
       - $(aws ecr get-login --no-include-email --region ${AWS_REGION})
+      - REPOSITORY_URI=${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${IMAGE_NAME}
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+      - IMAGE_TAG=${COMMIT_HASH:=latest}
   build:
     commands:
       - echo Building Docker image on `date`
-      - docker build --build-arg dbu=${DATABASE_USERNAME} --build-arg dbp=${DATABASE_PASSWORD} --build-arg dbh=${DATABASE_HOST} --build-arg dbn=wordpress -t ${IMAGE_NAME}:${CODEBUILD_RESOLVED_SOURCE_VERSION} .
-      - docker tag ${IMAGE_NAME}:${CODEBUILD_RESOLVED_SOURCE_VERSION} ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${IMAGE_NAME}:${CODEBUILD_RESOLVED_SOURCE_VERSION}
+      - docker build --build-arg dbu=${DATABASE_USERNAME} --build-arg dbp=${DATABASE_PASSWORD} --build-arg dbh=${DATABASE_HOST} --build-arg dbn=wordpress -t $REPOSITORY_URI:latest .
+      - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
   post_build:
     commands:
-      - echo build Docker image complete `date`
+      - echo Build Docker image complete `date`
       - echo push latest Docker images to ECR...
-      - docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${IMAGE_NAME}:${CODEBUILD_RESOLVED_SOURCE_VERSION}
-
+      - docker push $REPOSITORY_URI:latest
+      - docker push $REPOSITORY_URI:$IMAGE_TAG
+      - echo Writing image definitions file...
+      - printf '[{"name":"${IMAGE_NAME}","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 artifacts:
   files:
     - '**/*'
