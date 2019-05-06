@@ -9,12 +9,12 @@ phases:
     commands:
       - echo Building Docker image on `date`
       - docker build --build-arg dbu=${DATABASE_USERNAME} --build-arg dbp=${DATABASE_PASSWORD} --build-arg dbh=${DATABASE_HOST} --build-arg dbn=wordpress -t ${IMAGE_NAME}:${CODEBUILD_RESOLVED_SOURCE_VERSION} .
-      - docker tag {IMAGE_NAME}:${CODEBUILD_RESOLVED_SOURCE_VERSION} ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/{IMAGE_NAME}:${CODEBUILD_RESOLVED_SOURCE_VERSION}
+      - docker tag ${IMAGE_NAME}:${CODEBUILD_RESOLVED_SOURCE_VERSION} ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${IMAGE_NAME}:${CODEBUILD_RESOLVED_SOURCE_VERSION}
   post_build:
     commands:
       - echo build Docker image complete `date`
       - echo push latest Docker images to ECR...
-      - docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/{IMAGE_NAME}:${CODEBUILD_RESOLVED_SOURCE_VERSION}
+      - docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${IMAGE_NAME}:${CODEBUILD_RESOLVED_SOURCE_VERSION}
 
 artifacts:
   files:
