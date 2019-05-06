@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Install PHP
+sudo apt-get install php
+
 # Install Composer
 EXPECTED_SIGNATURE=$(curl -sS https://composer.github.io/installer.sig)
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -12,7 +15,6 @@ then
 fi
 php composer-setup.php --quiet 
 RESULT=$?
-rm composer-setup.php
 
 # Install Plugin & Theme Dependencies via Composer
 php composer.phar install 
