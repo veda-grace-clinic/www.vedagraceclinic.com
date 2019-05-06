@@ -1,10 +1,8 @@
 #!/bin/sh
 
 # Install PHP
-sudo apt-get install software-properties-common
-sudo add-apt-repository ppa:ondrej/php
-sudo apt-get update
-sudo apt-get install -y php7.0
+sudo apt update
+sudo apt install -y curl php-cli php-mbstring git unzip
 
 # Install Composer
 EXPECTED_SIGNATURE=$(curl -sS https://composer.github.io/installer.sig)
