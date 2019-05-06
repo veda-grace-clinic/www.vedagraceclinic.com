@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install PHP
-sudo apt-get install php
+sudo apt-get install php7.0
 
 # Install Composer
 EXPECTED_SIGNATURE=$(curl -sS https://composer.github.io/installer.sig)
