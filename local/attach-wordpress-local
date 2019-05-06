@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+container_id=$(docker ps --format '{{.ID}}' --filter ancestor=wordpress/vedagraceclinic.com:local)
+docker exec -it "$container_id" bash

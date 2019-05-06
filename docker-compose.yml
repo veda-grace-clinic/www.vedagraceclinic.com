@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  
+  wordpress:
+    build:
+      context: .
+      args:
+        dbu: root
+        dbp: password
+        dbh: mysql
+        dbn: wordpress
+    image: wordpress/vedagraceclinic.com:local
+    restart: always
+    ports:
+      - "8080:80"
+    depends_on: 
+      - mysql
+    volumes:
+      - ./local/wp-content/uploads:/var/www/html/wp-content/uploads
+
+  mysql:
+    image: mysql:5.6
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - ./local/mysql:/var/lib/mysql
+    ports: 
+      - "3306:3306"
