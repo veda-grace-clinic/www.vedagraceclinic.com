@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Install PHP
-sudo apt update
-sudo apt install -y curl php-cli php-mbstring git unzip
+sudo apt-get update
+sudo apt-get install -y curl php-cli php-mbstring git unzip
 
 # Install Composer
 EXPECTED_SIGNATURE=$(curl -sS https://composer.github.io/installer.sig)
