@@ -1,6 +1,10 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      docker: 18
+      php: 7.3
   pre_build:
     commands:
       - echo Installing composer dependencies
