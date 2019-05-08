@@ -4,13 +4,18 @@
 
 2. Install Composer
 
+3. Install Dependencies `composer install`
+
 
 # Local Development
 Theme development should occur in the `site/wp-content/themes` directory.
 Likewise, any custom plugin development should occur in the `site/wp-content/plugins` directory.
 
-If you want to include additional plugins, download & install them with composer by simply referencing the plugin from `wpackagist.com` via the `site/composer.json` file. 
+If you want to include additional plugins which you will not be modifying its source code, find the plugin on `wpackagist.org` and make an entry for in the `composer.json` file. 
 
+If you want to include additional plugins which you will modify its source code, do not use composer, instead, install the plugin directly to the `site/wp-content/plugins` directory. 
+
+-
 
 To start up the wordpress environment locally, simply run
 `docker-compose up --build`
