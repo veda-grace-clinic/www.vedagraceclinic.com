@@ -21,6 +21,7 @@
   },
   "require": {
     "wpackagist-plugin/wp-native-php-sessions": "*",
+    "wpackagist-plugin/wp-native-php-sessions/contact-form-7": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
     "deliciousbrains-plugin/wp-offload-media": "*",
