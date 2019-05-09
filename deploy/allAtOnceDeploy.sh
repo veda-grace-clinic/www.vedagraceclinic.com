@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "${CLUSTER_NAME}" = "development-vedagraceclinic-com" ]
+if [ "${CLUSTER_NAME}" = "development-vedagraceclinic-com" ]; then
   index=0
   taskArn=$(aws ecs list-tasks --cluster ${CLUSTER_NAME} --query "taskArns[${index}]" --output text)
 
