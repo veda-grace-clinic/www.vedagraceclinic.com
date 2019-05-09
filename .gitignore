@@ -4,5 +4,6 @@
 .idea
 mu.yml
 site/wp-content/uploads/
+site/wp-content/plugins/
 composer.lock
 vendor/

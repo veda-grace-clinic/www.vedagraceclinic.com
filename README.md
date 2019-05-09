@@ -13,7 +13,7 @@ Likewise, any custom plugin development should occur in the `site/wp-content/plu
 
 If you want to include additional plugins which you will not be modifying its source code, find the plugin on `wpackagist.org` and make an entry for in the `composer.json` file. 
 
-If you want to include additional plugins which you will modify its source code, do not use composer, instead, install the plugin directly to the `site/wp-content/plugins` directory. 
+If you want to include additional plugins which you will modify its source code, do not use composer, instead, install the plugin directly to the `site/wp-content/plugins` directory. MAKE SURE TO UPDATE `.gitignore` TO INCLUDE THE PLUGIN!
 
 -
 
