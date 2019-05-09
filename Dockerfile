@@ -15,7 +15,7 @@ ENV WORDPRESS_DB_HOST=$dbh
 ENV WORDPRESS_DB_NAME=$dbn
 
 # Copy wordpress files & install plugin/theme dependencies via composer
-WORKDIR /usr/src/wordpress
+WORKDIR /var/www/html
 COPY --chown=www-data:www-data site/ .
 
 # Update wp-config to support `Offload Media` plugin
