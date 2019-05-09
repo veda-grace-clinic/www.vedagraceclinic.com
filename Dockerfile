@@ -15,8 +15,7 @@ ENV WORDPRESS_DB_HOST=$dbh
 ENV WORDPRESS_DB_NAME=$dbn
 
 # Copy wordpress files & install plugin/theme dependencies via composer
-WORKDIR /var/www/html
-COPY --chown=www-data:www-data site/ .
+COPY site/ /var/www/html
 
 # Update wp-config to support `Offload Media` plugin
 RUN sed -i "/^.*stop editing.*/i define( 'AS3CF_AWS_USE_EC2_IAM_ROLE', true );\n\n" /usr/src/wordpress/wp-config-sample.php
