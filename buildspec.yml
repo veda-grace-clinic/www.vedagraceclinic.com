@@ -25,7 +25,7 @@ phases:
       - echo push latest Docker images to ECR...
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
-      - deploy/allAtOnceDeploy.sh
+      - chmod +x deploy/allAtOnceDeploy.sh && deploy/allAtOnceDeploy.sh
 artifacts:
   files: imagedefinitions.json
 
