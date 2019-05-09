@@ -27,5 +27,6 @@ phases:
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - chmod +x deploy/allAtOnceDeploy.sh && deploy/allAtOnceDeploy.sh
 artifacts:
-  files: imagedefinitions.json
+  files:
+    - '**/*'
 
