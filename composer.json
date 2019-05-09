@@ -20,6 +20,7 @@
     }
   },
   "require": {
+    "wpackagist-plugin/wordpress-seo":">=7.0.2",
     "wpackagist-plugin/wp-native-php-sessions": "*",
     "wpackagist-plugin/contact-form-7": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro": "*",
