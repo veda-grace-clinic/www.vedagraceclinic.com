@@ -22,6 +22,9 @@
   "require": {
     "wpackagist-plugin/wp-native-php-sessions": "*",
     "wpackagist-plugin/contact-form-7": "*",
+    "wpackagist-plugin/advanced-custom-fields": "*",
+    "wpackagist-plugin/custom-post-type-ui": "*",
+    "wpackagist-plugin/contact-form-cfdb7": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
     "deliciousbrains-plugin/wp-offload-media": "*",

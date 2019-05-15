@@ -1,0 +1,1950 @@
+/*!
+Theme Name: veda-grace
+Theme URI: http://veda-grace.com/
+Author: Abanob William
+Author URI: http://abanob-william.com/
+Description: Veda Grace
+Version: 1.0.0
+Text Domain: veda-grace
+Tags: Veda Grace
+*/
+/* Header */
+header div.container {
+    height: 150px;
+}
+
+header div.container div.logo-menu a.logo {
+    font-size: 60px;
+    font-family: lib;
+    font-weight: 400;
+    color: #008080;
+    margin-right: 121px;
+    float: left;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+}
+
+header div.container div.logo-menu a.logo:hover {
+    color: #2db9b9;
+    text-decoration: none;
+}
+
+header div.container div.logo-menu ul {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    margin-top: 10px;
+}
+
+header div.container div.logo-menu ul li {
+    float: left;
+}
+
+header div.container div.logo-menu ul li a {
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+    color: #008080;
+    font-weight: 700;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+}
+
+header div.container div.logo-menu ul li a:hover {
+    color: #2db9b9;
+    text-decoration: none;
+}
+
+header div.container div.logo-menu ul li:not(:last-child) {
+    margin-right: 129px;
+}
+
+header div.container ul.secondary-menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+header div.container ul.secondary-menu li a {
+    display: block;
+    background: #008080;
+    padding: 25px 77px 25px 77px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+}
+
+header div.container ul.secondary-menu li a:hover {
+    background: #2db9b9;
+    text-decoration: none;
+}
+
+header div.container ul.mobile-menu {
+    display: none;
+}
+
+header div.container a.mobile-button {
+    display: none;
+}
+
+/* // Header */
+/* Cosmetic Care Section */
+section.cosmetic-care div.content {
+    background: #f2f2f2;
+    padding: 123px 0px 0px 0px;
+}
+
+section.cosmetic-care div.content h2 {
+    font-size: 72px;
+    color: #000;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 30px;
+}
+
+section.cosmetic-care div.content p {
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 191px;
+    padding: 0px 30px;
+}
+
+/* // Cosmetic Care Section */
+/* Virtual and concierge */
+section.virtual-concierge {
+    margin-top: 72px;
+}
+
+section.virtual-concierge div.virtual,
+section.virtual-concierge div.concierge {
+    padding: 106px 100px 0px 100px;
+    background: #d9ecec;
+    margin-bottom: 30px;
+}
+
+section.virtual-concierge div.virtual h3,
+section.virtual-concierge div.concierge h3 {
+    color: #121f36;
+    font-size: 44px;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 50px;
+}
+
+section.virtual-concierge div.virtual p,
+section.virtual-concierge div.concierge p {
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    color: #636363;
+    margin-bottom: 50px;
+    min-height: 180px;
+}
+
+section.virtual-concierge div.virtual a,
+section.virtual-concierge div.concierge a {
+    display: inline-block;
+    background: #008080;
+    padding: 25px 130px;
+    border-radius: 50px;
+    font-size: 36px;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    margin-bottom: 130px;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+}
+
+section.virtual-concierge div.virtual a:hover,
+section.virtual-concierge div.concierge a:hover {
+    background: #2db9b9;
+    text-decoration: none;
+}
+
+section.virtual-concierge div.virtual div.img,
+section.virtual-concierge div.concierge div.img {
+    position: relative;
+}
+
+section.virtual-concierge div.virtual div.img h4,
+section.virtual-concierge div.concierge div.img h4 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    color: #fff;
+    font-size: 36px;
+    font-family: "Nunito", sans-serif;
+}
+
+section.virtual-concierge div.virtual div.img img,
+section.virtual-concierge div.concierge div.img img {
+    height: 847px;
+}
+
+/* // Virtual and concierge */
+/* How it works Section */
+section.how-it-works {
+    padding: 373px 0px 440px 0px;
+}
+
+section.how-it-works h2 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 72px;
+}
+
+section.how-it-works div.step {
+    margin-top: 107px;
+}
+
+section.how-it-works div.step h3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+section.how-it-works div.step p {
+    font-size: 32px;
+    font-family: "Nunito", sans-serif;
+}
+
+section.how-it-works div.home-services {
+    margin-top: 211px;
+    padding: 0px 60px;
+}
+
+section.how-it-works div.home-services img {
+    margin-bottom: 203px;
+}
+
+section.how-it-works div.home-services h3 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+}
+
+section.how-it-works div.home-services p {
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+    color: #636363;
+}
+
+/* // How it works Section */
+/* Simple and effective Section */
+section.simple-effective {
+    margin-bottom: 132px;
+}
+
+section.simple-effective div.content {
+    background: #d9ecec;
+    padding: 219px 160px 178px 182px;
+}
+
+section.simple-effective div.content div.description h2 {
+    font-size: 60px;
+    font-family: "Libre Baskerville", serif;
+    color: #121f36;
+    margin-bottom: 80px;
+}
+
+section.simple-effective div.content div.description p {
+    color: #636363;
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+}
+
+section.simple-effective div.content div.images {
+    padding-left: 80px;
+}
+
+section.simple-effective div.content div.images div.img {
+    max-width: 480px;
+}
+
+section.simple-effective div.content div.images div.img span {
+    display: block;
+    color: #7c7c81;
+    margin-top: 44px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/* // Simple and effective Section */
+/* Invitation Section */
+section.invitaion div.content {
+    padding: 121px 270px 105px 234px;
+    border-top: 3px double #636363;
+}
+
+section.invitaion div.content div.desc h3 {
+    color: #008080;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 29px;
+}
+
+section.invitaion div.content div.desc p {
+    font-size: 30px;
+    color: #636363;
+    font-family: "Nunito", sans-serif;
+    margin: 0px;
+}
+
+section.invitaion div.content div.link a {
+    display: inline-block;
+    background: #008080;
+    border-radius: 50px;
+    color: #fff;
+    padding: 25px 82px 25px 71px;
+    font-family: "Nunito", sans-serif;
+    font-size: 38px;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    text-align: center;
+}
+
+section.invitaion div.content div.link a:hover {
+    background: #2db9b9;
+    text-decoration: none;
+}
+
+/* // Invitation Section */
+/* Waitlist Section */
+section.waitlist {
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+section.waitlist div.content {
+    background: #f2f2f2;
+    padding: 103px 0px 144px 0px;
+}
+
+section.waitlist div.content h2 {
+    color: #121f36;
+    font-size: 72px;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 76px;
+}
+
+section.waitlist div.content p {
+    font-size: 30px;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 132px;
+}
+
+section.waitlist div.content div.form {
+    display: inline-block;
+    min-width: 776px;
+    max-width: 776px;
+}
+
+section.waitlist div.content div.form div.field {
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 34px;
+}
+
+section.waitlist div.content div.form div.field div.half {
+    width: 50%;
+    float: left;
+}
+
+section.waitlist div.content div.form div.field div.half:first-child {
+    padding-right: 9px;
+}
+
+section.waitlist div.content div.form div.field p{
+    display: none;
+}
+
+section.waitlist div.content div.form div.field div.half:last-child {
+    padding-left: 9px;
+}
+
+section.waitlist div.content div.form div.field input {
+    width: 100%;
+    height: 114px;
+    border: none;
+    padding: 0px 32px;
+}
+
+section.waitlist div.content div.form div.field input::placeholder {
+    color: #636363;
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+}
+
+section.waitlist div.content div.form div.field input:-ms-input-placeholder {
+    color: #636363;
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+}
+
+section.waitlist div.content div.form div.field input::-ms-input-placeholder {
+    color: #636363;
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+}
+
+section.waitlist div.content div.form div.submit {
+    margin-top: 49px;
+}
+
+section.waitlist div.content div.form div.submit input {
+    background: #008080;
+    padding: 24px 70px;
+    border-radius: 60px;
+    color: #fff;
+    border: none;
+    font-size: 38px;
+    font-family: "Nunito", sans-serif;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+}
+
+section.waitlist div.content div.form div.submit input:hover {
+    background: #2db9b9;
+    text-decoration: none;
+}
+
+/* // Waitlist Section */
+/* Footer */
+footer div.content {
+    border-top: 3px double #636363;
+    padding: 73px 170px 50px 170px;
+}
+
+footer div.content div.content-top {
+    margin-bottom: 110px;
+}
+
+footer div.content div.content-top div.social-blog ul {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    overflow: hidden;
+}
+
+footer div.content div.content-top div.social-blog ul:first-child li {
+    float: left;
+}
+
+footer div.content div.content-top div.social-blog ul:first-child li:not(:last-child) {
+    margin-right: 50px;
+}
+
+footer div.content div.content-top div.social-blog ul:last-child {
+    margin-top: 56px;
+}
+
+footer div.content div.content-top div.social-blog ul:last-child li:not(:last-child) {
+    margin-bottom: 34px;
+}
+
+footer div.content div.content-top div.social-blog ul:last-child li a {
+    color: #008080;
+    font-size: 36px;
+    font-family: "Nunito", sans-serif;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+}
+
+footer div.content div.content-top div.social-blog ul:last-child li a:hover {
+    color: #2db9b9;
+    text-decoration: none;
+}
+
+footer div.content div.content-top div.footer-menu-two ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer div.content div.content-top div.footer-menu-two ul li a {
+    color: #008080;
+    font-size: 36px;
+    font-family: "Nunito", sans-serif;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+}
+
+footer div.content div.content-top div.footer-menu-two ul li a:hover {
+    color: #2db9b9;
+    text-decoration: none;
+}
+
+footer div.content div.content-top div.footer-menu-two ul li:not(:last-child) {
+    margin-bottom: 34px;
+}
+
+footer div.content div.content-top div.footer-menu-three ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer div.content div.content-top div.footer-menu-three ul li a {
+    color: #008080;
+    font-size: 36px;
+    font-family: "Nunito", sans-serif;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+}
+
+footer div.content div.content-top div.footer-menu-three ul li a:hover {
+    color: #2db9b9;
+    text-decoration: none;
+}
+
+footer div.content div.content-top div.footer-menu-three ul li:not(:last-child) {
+    margin-bottom: 34px;
+}
+
+footer div.content div.content-top div.footer-menu-four ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer div.content div.content-top div.footer-menu-four ul li a {
+    color: #008080;
+    font-size: 36px;
+    font-family: "Nunito", sans-serif;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+}
+
+footer div.content div.content-top div.footer-menu-four ul li a:hover {
+    color: #2db9b9;
+    text-decoration: none;
+}
+
+footer div.content div.content-top div.footer-menu-four ul li:not(:last-child) {
+    margin-bottom: 34px;
+}
+
+footer div.content div.content-bottom {
+    text-align: center;
+}
+
+footer div.content div.content-bottom p {
+    color: #636363;
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+}
+
+/* Footer */
+/* Responsive */
+@media (max-width: 1200px) {
+    section.cosmetic-care div.content img {
+        max-width: 70%;
+    }
+
+    section.virtual-concierge div.virtual div.img img,
+    section.virtual-concierge div.concierge div.img img {
+        height: 300px;
+    }
+
+    section.virtual-concierge div.virtual a,
+    section.virtual-concierge div.concierge a {
+        margin-bottom: 50px;
+        padding: 15px 40px;
+        font-size: 20px;
+    }
+
+    section.how-it-works div.home-services img {
+        max-height: 280px;
+        margin-bottom: 100px;
+    }
+
+    header div.container div.logo-menu a.logo {
+        font-size: 20px;
+        margin-right: 30px;
+    }
+
+    header div.container div.logo-menu ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    header div.container div.logo-menu ul li a {
+        font-size: 16px;
+    }
+
+    header div.container ul.secondary-menu li a {
+        padding: 15px 40px 15px 40px;
+        border-radius: 50px;
+        font-size: 16px;
+    }
+
+    header div.container {
+        height: 100px;
+    }
+
+    section.virtual-concierge {
+        margin-top: 20px;
+    }
+
+    section.virtual-concierge div.virtual,
+    section.virtual-concierge div.concierge {
+        padding: 50px 50px 0px 50px;
+    }
+
+    section.cosmetic-care div.content h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    section.cosmetic-care div.content p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    section.cosmetic-care div.content {
+        padding: 50px 0px 0px 0px;
+    }
+
+    section.virtual-concierge div.virtual h3,
+    section.virtual-concierge div.concierge h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    section.virtual-concierge div.virtual p,
+    section.virtual-concierge div.concierge p {
+        font-size: 16px;
+        min-height: 100px;
+    }
+
+    section.how-it-works {
+        padding: 50px 0px 100px 0px;
+    }
+
+    section.how-it-works h2 {
+        font-size: 30px;
+    }
+
+    section.how-it-works div.step {
+        margin-top: 30px;
+    }
+
+    section.how-it-works div.step h3 {
+        font-size: 20px;
+    }
+
+    section.how-it-works div.step p {
+        font-size: 16px;
+    }
+
+    section.how-it-works div.home-services {
+        margin-top: 50px;
+    }
+
+    section.how-it-works div.home-services h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    section.how-it-works div.home-services p {
+        font-size: 16px;
+    }
+
+    section.simple-effective div.content div.description h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    section.simple-effective div.content div.description p {
+        font-size: 16px;
+    }
+
+    section.simple-effective div.content div.images div.img {
+        max-width: 160px;
+    }
+
+    section.simple-effective div.content div.images div.img span {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    section.invitaion div.content {
+        padding: 30px;
+    }
+
+    section.invitaion div.content div.desc h3 {
+        font-size: 20px;
+    }
+
+    section.invitaion div.content div.desc p {
+        font-size: 16px;
+    }
+
+    section.invitaion div.content div.link a {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    section.waitlist div.content {
+        padding: 50px 0px;
+    }
+
+    section.waitlist div.content h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    section.waitlist div.content p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    section.waitlist div.content div.form div.field input {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    section.waitlist div.content div.form div.field input::placeholder {
+        font-size: 16px;
+    }
+
+    section.waitlist div.content div.form div.field input:-ms-input-placeholder {
+        font-size: 16px;
+    }
+
+    section.waitlist div.content div.form div.field input::-ms-input-placeholder {
+        font-size: 16px;
+    }
+
+    section.waitlist div.content div.form div.field {
+        margin-bottom: 15px;
+    }
+
+    section.waitlist div.content div.form div.submit input {
+        padding: 15px 40px;
+        font-size: 16px;
+    }
+
+    footer div.content {
+        padding: 30px;
+    }
+
+    footer div.content div.content-top {
+        margin-bottom: 50px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:first-child li a img {
+        width: 30px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:first-child li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:last-child li a,
+    footer div.content div.content-top div.footer-menu-two ul li a,
+    footer div.content div.content-top div.footer-menu-three ul li a,
+    footer div.content div.content-top div.footer-menu-four ul li a {
+        font-size: 16px;
+    }
+
+    footer div.content div.content-top div.footer-menu-two ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-three ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-four ul li:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    footer div.content div.content-bottom p {
+        font-size: 16px;
+    }
+
+    section.simple-effective div.content {
+        padding: 30px;
+    }
+
+    section.virtual-concierge div.virtual div.img h4,
+    section.virtual-concierge div.concierge div.img h4 {
+        font-size: 16px;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    section.cosmetic-care div.content img {
+        max-width: 80%;
+    }
+
+    section.virtual-concierge div.virtual div.img img,
+    section.virtual-concierge div.concierge div.img img {
+        height: 250px;
+    }
+
+    section.virtual-concierge div.virtual a,
+    section.virtual-concierge div.concierge a {
+        margin-bottom: 20px;
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+
+    section.how-it-works div.home-services img {
+        max-height: 190px;
+        margin-bottom: 30px;
+    }
+
+    header div.container div.logo-menu a.logo {
+        margin-right: 20px;
+    }
+
+    header div.container div.logo-menu ul li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    header div.container div.logo-menu ul {
+        margin-top: 0px;
+    }
+
+    header div.container div.logo-menu ul li a {
+        font-size: 14px;
+    }
+
+    header div.container ul.secondary-menu li a {
+        padding: 15px 30px;
+        border-radius: 50px;
+        font-size: 14px;
+    }
+
+    header div.container {
+        height: 80px;
+    }
+
+    section.virtual-concierge div.virtual,
+    section.virtual-concierge div.concierge {
+        padding: 30px 30px 0px 30px;
+    }
+
+    section.cosmetic-care div.content h2 {
+        font-size: 20px;
+    }
+
+    section.cosmetic-care div.content p {
+        font-size: 16px;
+        margin-bottom: 40px;
+        padding: 0px 30px;
+    }
+
+    section.cosmetic-care div.content {
+        padding: 30px 0px 0px 0px;
+    }
+
+    section.virtual-concierge div.virtual h3,
+    section.virtual-concierge div.concierge h3 {
+        font-size: 20px;
+    }
+
+    section.virtual-concierge div.virtual p,
+    section.virtual-concierge div.concierge p {
+        font-size: 16px;
+        min-height: 100px;
+    }
+
+    section.how-it-works {
+        padding: 30px 0px 60px 0px;
+    }
+
+    section.how-it-works h2 {
+        font-size: 20px;
+    }
+
+    section.how-it-works div.step {
+        margin-top: 20px;
+    }
+
+    section.how-it-works div.home-services {
+        margin-top: 30px;
+    }
+
+    section.how-it-works div.home-services h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    section.how-it-works div.home-services p {
+        font-size: 16px;
+    }
+
+    section.simple-effective div.content div.description h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    section.simple-effective div.content div.description p {
+        font-size: 16px;
+    }
+
+    section.simple-effective div.content div.images div.img {
+        max-width: 120px;
+    }
+
+    section.simple-effective {
+        margin-bottom: 50px;
+    }
+
+    section.simple-effective div.content div.images div.img span {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    section.invitaion div.content {
+        padding: 30px;
+    }
+
+    section.invitaion div.content div.desc h3 {
+        font-size: 20px;
+    }
+
+    section.invitaion div.content div.desc p {
+        font-size: 16px;
+    }
+
+    section.invitaion div.content div.link a {
+        font-size: 14px;
+        padding: 15px 20px;
+        min-width: 170px;
+        text-align: center;
+    }
+
+    section.invitaion div.content div.desc h3 {
+        margin-bottom: 10px;
+    }
+
+    section.waitlist div.content {
+        padding: 50px 0px;
+    }
+
+    section.waitlist div.content h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    section.waitlist div.content p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    section.waitlist div.content div.form {
+        min-width: 500px;
+        max-width: 500px;
+    }
+
+    section.waitlist div.content div.form div.field input {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    section.waitlist div.content div.form div.field {
+        margin-bottom: 15px;
+    }
+
+    section.waitlist div.content div.form div.submit input {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+
+    footer div.content div.content-top {
+        margin-bottom: 30px;
+    }
+
+    footer div.content div.content-top div.social-blog {
+        margin-bottom: 30px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:last-child {
+        margin-top: 20px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:first-child li a img {
+        width: 30px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:first-child li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:last-child li a,
+    footer div.content div.content-top div.footer-menu-two ul li a,
+    footer div.content div.content-top div.footer-menu-three ul li a,
+    footer div.content div.content-top div.footer-menu-four ul li a {
+        font-size: 16px;
+    }
+
+    footer div.content div.content-top div.footer-menu-two ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-three ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-four ul li:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    footer div.content div.content-bottom p {
+        font-size: 16px;
+    }
+
+    section.simple-effective div.content {
+        padding: 30px;
+    }
+
+    section.virtual-concierge div.virtual div.img h4,
+    section.virtual-concierge div.concierge div.img h4 {
+        font-size: 16px;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    ul.menu {
+        display: none;
+    }
+
+    header div.container ul.mobile-menu {
+        display: block;
+    }
+
+    header div.container a.mobile-button {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+    }
+
+    header div.container a.mobile-button span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: #008080;
+        position: absolute;
+        transition: all ease-in-out 0.2s;
+        -webkit-transition: all ease-in-out 0.2s;
+        -moz-transition: all ease-in-out 0.2s;
+        -o-transition: all ease-in-out 0.2s;
+        -ms-transition: all ease-in-out 0.2s;
+    }
+
+    header div.container a.mobile-button span:first-child {
+        top: 0;
+        left: 0;
+    }
+
+    header div.container a.mobile-button span:nth-child(2) {
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+    }
+
+    header div.container a.mobile-button span:last-child {
+        bottom: 0;
+        left: 0;
+    }
+
+    header div.container a.mobile-button.opened span:first-child {
+        transform: rotate(45deg);
+        top: 10px;
+    }
+
+    header div.container a.mobile-button.opened span:last-child {
+        transform: rotate(-45deg);
+        bottom: 6px;
+        left: -0.5px;
+    }
+
+    header div.container a.mobile-button.opened span:nth-child(2) {
+        display: none;
+    }
+
+    header div.container ul.mobile-menu {
+        position: absolute;
+        top: 80px;
+        list-style: none;
+        width: 510px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        background: #f2f2f2;
+        padding: 20px;
+        margin: 0px;
+        display: none;
+    }
+
+    header div.container ul.mobile-menu li a {
+        display: block;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #008080;
+    }
+
+    header div.container ul.mobile-menu li a:hover {
+        background: #eee;
+        text-decoration: none;
+    }
+
+    header div.container ul.mobile-menu.opened {
+        display: block;
+    }
+
+    section.virtual-concierge div.virtual {
+        margin-bottom: 30px;
+    }
+
+    section.how-it-works div.home-services div.col-sm-12:not(:last-of-type) {
+        margin-bottom: 30px;
+    }
+
+    section.simple-effective div.content div.description {
+        text-align: center;
+    }
+
+    section.simple-effective div.content div.images {
+        padding-left: 0px;
+        margin-top: 30px;
+        padding: 0px 40px;
+    }
+
+    section.invitaion div.content {
+        flex-wrap: wrap;
+    }
+
+    section.invitaion div.content div.link a {
+        display: block;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    section.waitlist div.content div.form {
+        max-width: 350px;
+        min-width: 350px;
+    }
+
+    section.waitlist div.content p {
+        padding: 0px 30px;
+    }
+
+    footer div.content div.content-top div.social-blog {
+        margin-bottom: 0px;
+    }
+
+    section.cosmetic-care div.content h2 {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 579px) {
+    header div.container ul.mobile-menu {
+        width: calc(100% - 30px);
+        width: -webkit-calc(100% - 30px);
+        width: -moz-calc(100% - 30px);
+        width: -o-calc(100% - 30px);
+        width: -ms-calc(100% - 30px);
+    }
+
+    section.waitlist div.content div.form {
+        min-width: calc(100% - 30px);
+        min-width: -webkit-calc(100% - 30px);
+        min-width: -moz-calc(100% - 30px);
+        min-width: -o-calc(100% - 30px);
+        min-width: -ms-calc(100% - 30px);
+        max-width: calc(100% - 30px);
+        max-width: -webkit-calc(100% - 30px);
+        max-width: -moz-calc(100% - 30px);
+        max-width: -o-calc(100% - 30px);
+        max-width: -ms-calc(100% - 30px);
+    }
+
+    section.waitlist div.content div.form div.field div.half {
+        width: 100%;
+        padding: 0px !important;
+    }
+
+    section.waitlist div.content div.form div.field div.half:first-child {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1230px;
+    }
+
+    section.cosmetic-care div.content img {
+        max-width: 70%;
+    }
+
+    section.virtual-concierge div.virtual div.img img,
+    section.virtual-concierge div.concierge div.img img {
+        height: 400px;
+    }
+
+    section.virtual-concierge div.virtual a,
+    section.virtual-concierge div.concierge a {
+        margin-bottom: 50px;
+        padding: 20px 90px;
+        font-size: 20px;
+    }
+
+    section.how-it-works div.home-services img {
+        max-height: 350px;
+        margin-bottom: 100px;
+    }
+
+    header div.container div.logo-menu a.logo {
+        font-size: 30px;
+        margin-right: 60px;
+    }
+
+    header div.container div.logo-menu ul li:not(:last-child) {
+        margin-right: 60px;
+    }
+
+    header div.container div.logo-menu ul li a {
+        font-size: 20px;
+    }
+
+    header div.container ul.secondary-menu li a {
+        padding: 16px 40px 16px 40px;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+
+    section.virtual-concierge {
+        margin-top: 30px;
+    }
+
+    section.cosmetic-care div.content h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    section.cosmetic-care div.content p {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    section.cosmetic-care div.content {
+        padding: 100px 0px 0px 0px;
+    }
+
+    section.virtual-concierge div.virtual h3,
+    section.virtual-concierge div.concierge h3 {
+        font-size: 30px;
+    }
+
+    section.virtual-concierge div.virtual p,
+    section.virtual-concierge div.concierge p {
+        font-size: 24px;
+        min-height: 253px;
+    }
+
+    section.how-it-works {
+        padding: 100px 0px 200px 0px;
+    }
+
+    section.how-it-works h2 {
+        font-size: 40px;
+    }
+
+    section.how-it-works div.step {
+        margin-top: 60px;
+    }
+
+    section.how-it-works div.step h3 {
+        font-size: 30px;
+    }
+
+    section.how-it-works div.step p {
+        font-size: 24px;
+    }
+
+    section.how-it-works div.home-services {
+        margin-top: 100px;
+    }
+
+    section.how-it-works div.home-services h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    section.how-it-works div.home-services p {
+        font-size: 24px;
+    }
+
+    section.simple-effective div.content div.description h2 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    section.simple-effective div.content div.description p {
+        font-size: 24px;
+    }
+
+    section.simple-effective div.content div.images div.img {
+        max-width: 240px;
+    }
+
+    section.simple-effective div.content div.images div.img span {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    section.invitaion div.content {
+        padding: 60px;
+    }
+
+    section.invitaion div.content div.desc h3 {
+        font-size: 20px;
+    }
+
+    section.invitaion div.content div.desc p {
+        font-size: 16px;
+    }
+
+    section.invitaion div.content div.link a {
+        font-size: 20px;
+        min-width: 350px;
+    }
+
+    section.waitlist div.content {
+        padding: 100px 0px 100px 0px;
+    }
+
+    section.waitlist div.content h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    section.waitlist div.content p {
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+
+    section.waitlist div.content div.form div.field input {
+        height: 70px;
+    }
+
+    section.waitlist div.content div.form div.field {
+        margin-bottom: 20px;
+    }
+
+    section.waitlist div.content div.form div.submit input {
+        padding: 16px 40px;
+    }
+
+    footer div.content {
+        padding: 60px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:first-child li a img {
+        width: 50px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:last-child li a,
+    footer div.content div.content-top div.footer-menu-two ul li a,
+    footer div.content div.content-top div.footer-menu-three ul li a,
+    footer div.content div.content-top div.footer-menu-four ul li a {
+        font-size: 20px;
+    }
+
+    footer div.content div.content-top div.footer-menu-two ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-three ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-four ul li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    footer div.content div.content-bottom p {
+        font-size: 20px;
+    }
+
+    section.simple-effective div.content {
+        padding: 60px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1430px;
+    }
+
+    section.cosmetic-care div.content img {
+        max-width: 70%;
+    }
+
+    section.virtual-concierge div.virtual div.img img,
+    section.virtual-concierge div.concierge div.img img {
+        height: 600px;
+    }
+
+    section.virtual-concierge div.virtual a,
+    section.virtual-concierge div.concierge a {
+        margin-bottom: 90px;
+        padding: 20px 90px;
+        font-size: 24px;
+    }
+
+    section.how-it-works div.home-services img {
+        max-height: 450px;
+        margin-bottom: 100px;
+    }
+
+    header div.container div.logo-menu a.logo {
+        font-size: 40px;
+    }
+
+    header div.container div.logo-menu ul li a {
+        font-size: 24px;
+    }
+
+    header div.container ul.secondary-menu li a {
+        background: #008080;
+        padding: 20px 60px 20px 60px;
+        color: #fff;
+        border-radius: 50px;
+        font-size: 24px;
+        font-family: "Nunito", sans-serif;
+    }
+
+    section.cosmetic-care div.content h2 {
+        font-size: 60px;
+    }
+
+    section.cosmetic-care div.content p {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    section.cosmetic-care div.content {
+        padding: 100px 0px 0px 0px;
+    }
+
+    section.virtual-concierge div.virtual h3,
+    section.virtual-concierge div.concierge h3 {
+        font-size: 30px;
+    }
+
+    section.virtual-concierge div.virtual p,
+    section.virtual-concierge div.concierge p {
+        font-size: 24px;
+        min-height: 140px;
+    }
+
+    section.how-it-works {
+        padding: 100px 0px 200px 0px;
+    }
+
+    section.how-it-works h2 {
+        font-size: 60px;
+    }
+
+    section.how-it-works div.step {
+        margin-top: 100px;
+    }
+
+    section.how-it-works div.step h3 {
+        font-size: 30px;
+    }
+
+    section.how-it-works div.step p {
+        font-size: 24px;
+    }
+
+    section.how-it-works div.home-services {
+        margin-top: 150px;
+    }
+
+    section.how-it-works div.home-services h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    section.how-it-works div.home-services p {
+        font-size: 24px;
+    }
+
+    section.simple-effective div.content div.description h2 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    section.simple-effective div.content div.description p {
+        font-size: 24px;
+    }
+
+    section.simple-effective div.content div.images div.img {
+        max-width: 270px;
+    }
+
+    section.simple-effective div.content div.images div.img span {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    section.invitaion div.content {
+        padding: 60px;
+    }
+
+    section.invitaion div.content div.desc h3 {
+        font-size: 30px;
+    }
+
+    section.invitaion div.content div.desc p {
+        font-size: 24px;
+    }
+
+    section.invitaion div.content div.link a {
+        font-size: 24px;
+    }
+
+    section.waitlist div.content {
+        padding: 100px 0px 100px 0px;
+    }
+
+    section.waitlist div.content h2 {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    section.waitlist div.content p {
+        font-size: 24px;
+        margin-bottom: 100px;
+    }
+
+    section.waitlist div.content div.form div.field input {
+        height: 90px;
+    }
+
+    section.waitlist div.content div.form div.field {
+        margin-bottom: 30px;
+    }
+
+    section.waitlist div.content div.form div.submit input {
+        padding: 20px 50px;
+    }
+
+    footer div.content {
+        padding: 100px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:first-child li a img {
+        width: 60px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:last-child li a,
+    footer div.content div.content-top div.footer-menu-two ul li a,
+    footer div.content div.content-top div.footer-menu-three ul li a,
+    footer div.content div.content-top div.footer-menu-four ul li a {
+        font-size: 30px;
+    }
+
+    footer div.content div.content-top div.footer-menu-two ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-three ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-four ul li:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    footer div.content div.content-bottom p {
+        font-size: 24px;
+    }
+
+    section.simple-effective div.content {
+        padding: 60px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .container {
+        max-width: 1830px;
+    }
+
+    section.virtual-concierge div.virtual div.img img,
+    section.virtual-concierge div.concierge div.img img {
+        height: 700px;
+    }
+
+    section.how-it-works div.home-services img {
+        max-height: 600px;
+    }
+
+    header div.container div.logo-menu a.logo {
+        font-size: 40px;
+    }
+
+    header div.container div.logo-menu ul li a {
+        font-size: 24px;
+    }
+
+    header div.container ul.secondary-menu li a {
+        background: #008080;
+        padding: 20px 60px 20px 60px;
+        color: #fff;
+        border-radius: 50px;
+        font-size: 24px;
+        font-family: "Nunito", sans-serif;
+    }
+
+    section.cosmetic-care div.content h2 {
+        font-size: 60px;
+    }
+
+    section.cosmetic-care div.content p {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    section.cosmetic-care div.content {
+        padding: 100px 0px 0px 0px;
+    }
+
+    section.virtual-concierge div.virtual h3,
+    section.virtual-concierge div.concierge h3 {
+        font-size: 30px;
+    }
+
+    section.virtual-concierge div.virtual p,
+    section.virtual-concierge div.concierge p {
+        font-size: 24px;
+        min-height: 140px;
+    }
+
+    section.how-it-works {
+        padding: 200px 0px 300px 0px;
+    }
+
+    section.how-it-works h2 {
+        font-size: 60px;
+    }
+
+    section.how-it-works div.step {
+        margin-top: 100px;
+    }
+
+    section.how-it-works div.step h3 {
+        font-size: 30px;
+    }
+
+    section.how-it-works div.step p {
+        font-size: 24px;
+    }
+
+    section.how-it-works div.home-services {
+        margin-top: 150px;
+    }
+
+    section.how-it-works div.home-services h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    section.how-it-works div.home-services p {
+        font-size: 24px;
+    }
+
+    section.simple-effective div.content div.description h2 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    section.simple-effective div.content div.description p {
+        font-size: 24px;
+    }
+
+    section.simple-effective div.content div.images div.img {
+        max-width: 350px;
+    }
+
+    section.simple-effective div.content div.images div.img span {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    section.invitaion div.content {
+        padding: 100px;
+    }
+
+    section.invitaion div.content div.desc h3 {
+        font-size: 30px;
+    }
+
+    section.invitaion div.content div.desc p {
+        font-size: 24px;
+    }
+
+    section.invitaion div.content div.link a {
+        font-size: 24px;
+    }
+
+    section.waitlist div.content {
+        padding: 100px 0px 100px 0px;
+    }
+
+    section.waitlist div.content h2 {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    section.waitlist div.content p {
+        font-size: 24px;
+        margin-bottom: 100px;
+    }
+
+    section.waitlist div.content div.form div.field input {
+        height: 90px;
+    }
+
+    section.waitlist div.content div.form div.field {
+        margin-bottom: 30px;
+    }
+
+    section.waitlist div.content div.form div.submit input {
+        padding: 20px 50px;
+    }
+
+    footer div.content {
+        padding: 100px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:first-child li a img {
+        width: 60px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:last-child li a,
+    footer div.content div.content-top div.footer-menu-two ul li a,
+    footer div.content div.content-top div.footer-menu-three ul li a,
+    footer div.content div.content-top div.footer-menu-four ul li a {
+        font-size: 30px;
+    }
+
+    footer div.content div.content-top div.footer-menu-two ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-three ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-four ul li:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    footer div.content div.content-bottom p {
+        font-size: 24px;
+    }
+
+    section.simple-effective div.content {
+        padding: 100px;
+    }
+}
+
+@media (min-width: 2300px) {
+    .container {
+        max-width: 2330px;
+    }
+}
+@media (min-width: 2000px) {
+    .container {
+        max-width: 2030px;
+    }
+
+    header div.container div.logo-menu a.logo {
+        font-size: 60px;
+    }
+
+    header div.container div.logo-menu ul li a {
+        font-size: 30px;
+    }
+
+    header div.container ul.secondary-menu li a {
+        font-size: 30px;
+    }
+
+    section.cosmetic-care div.content h2 {
+        font-size: 72px;
+    }
+
+    section.cosmetic-care div.content p {
+        font-size: 30px;
+        margin-bottom: 191px;
+        padding: 0px 30px;
+    }
+
+    section.cosmetic-care div.content {
+        padding: 123px 0px 0px 0px;
+    }
+
+    section.virtual-concierge div.virtual h3,
+    section.virtual-concierge div.concierge h3 {
+        font-size: 44px;
+    }
+
+    section.virtual-concierge div.virtual p,
+    section.virtual-concierge div.concierge p {
+        font-size: 30px;
+        min-height: 140px;
+    }
+
+    section.how-it-works {
+        padding: 373px 0px 440px 0px;
+    }
+
+    section.how-it-works h2 {
+        font-size: 72px;
+    }
+
+    section.how-it-works div.step {
+        margin-top: 107px;
+    }
+
+    section.how-it-works div.step h3 {
+        font-size: 32px;
+    }
+
+    section.how-it-works div.step p {
+        font-size: 30px;
+    }
+
+    section.how-it-works div.home-services {
+        margin-top: 211px;
+    }
+
+    section.how-it-works div.home-services h3 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    section.how-it-works div.home-services p {
+        font-size: 30px;
+    }
+
+    section.simple-effective div.content div.description h2 {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+
+    section.simple-effective div.content div.description p {
+        font-size: 30px;
+    }
+
+    section.simple-effective div.content div.images div.img {
+        max-width: 450px;
+    }
+
+    section.simple-effective div.content div.images div.img span {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    section.invitaion div.content {
+        padding: 100px;
+    }
+
+    section.invitaion div.content div.desc h3 {
+        font-size: 40px;
+    }
+
+    section.invitaion div.content div.desc p {
+        font-size: 30px;
+    }
+
+    section.invitaion div.content div.link a {
+        font-size: 30px;
+    }
+
+    section.waitlist div.content {
+        padding: 100px 0px 100px 0px;
+    }
+
+    section.waitlist div.content h2 {
+        font-size: 72px;
+        margin-bottom: 30px;
+    }
+
+    section.waitlist div.content p {
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+
+    section.waitlist div.content div.form div.field input {
+        height: 114px;
+    }
+
+    section.waitlist div.content div.form div.field {
+        margin-bottom: 30px;
+    }
+
+    section.waitlist div.content div.form div.submit input {
+        padding: 20px 50px;
+    }
+
+    footer div.content {
+        padding: 100px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:first-child li a img {
+        width: 60px;
+    }
+
+    footer div.content div.content-top div.social-blog ul:last-child li a,
+    footer div.content div.content-top div.footer-menu-two ul li a,
+    footer div.content div.content-top div.footer-menu-three ul li a,
+    footer div.content div.content-top div.footer-menu-four ul li a {
+        font-size: 36px;
+    }
+
+    footer div.content div.content-top div.footer-menu-two ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-three ul li:not(:last-child),
+    footer div.content div.content-top div.footer-menu-four ul li:not(:last-child) {
+        margin-bottom: 36px;
+    }
+
+    footer div.content div.content-bottom p {
+        font-size: 30px;
+    }
+
+    section.simple-effective div.content {
+        padding: 100px;
+    }
+}
+
+/* // Responsive */
+
+/*# sourceMappingURL=style.css.map */
